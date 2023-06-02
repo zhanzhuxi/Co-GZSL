@@ -1,0 +1,65 @@
+from yacs.config import CfgNode as CN
+
+_C = CN()
+_C.dataroot = './data'
+_C.image_embedding = 'res101'
+_C.class_embedding = 'att'
+_C.gzsl = True
+_C.preprocessing = True
+_C.standardization = False
+_C.validation = False
+_C.workers = 2
+_C.batch_size = 2048
+_C.resSize = 2048
+_C.embedSize = 2048
+_C.latensize = 64
+_C.outzSize = 512
+_C.ngh = 4096
+_C.ndh = 4096
+_C.ins_temp = 0.1
+_C.cls_temp = 0.1
+_C.nepoch = 100
+_C.critic_iter = 5
+_C.lr = 0.0001
+_C.lr_decay_epoch = 100
+_C.lr_dec_rate = 0.99
+_C.lambda1 = 10
+_C.classifier_lr = 0.001
+_C.beta1 = 0.5
+_C.cuda = True
+_C.gpus = '0'
+_C.img_size = 224
+_C.scale = 20
+_C.w2v_path = './data/w2v'
+_C.device = 'cuda'
+_C.DTYPE = 'float32'
+_C.MODEL_FILE_NAME = 'best_model.pth'
+_C.LOG_FILE_NAME = 'GEM.log'
+_C.OUTPUT_DIR = 'checkpoints'
+_C.dataset = 'AWA2'
+_C.syn_num = 2400
+_C.attSize = 85
+_C.nz = 85
+_C.nhF = 2048
+_C.ins_weight = 0.001
+_C.cls_weight = 0.001
+_C.gem_weight = 1.0
+_C.manualSeed = 9182
+_C.nclass_all = 50
+_C.nclass_seen = 40
+_C.lamd1 = 1.0
+_C.lamd2 = 0.1
+_C.lamd3 = 0.2
+_C.matdataset = True
+_C.M = 32
+_C.N = 16
+_C.i_c = 0.1
+_C.feedback_loop = 2
+_C.a1 = 0.01
+
+_C.encoded_noise = True
+
+_C.inner_loop = 100
+_C.episode = 50
+
+_C.nghA = 4096

@@ -1,6 +1,6 @@
 # Co-GZSL
 
-![generation_framework](./images/framework.png)
+![generation_framework](./images/framework.pdf)
 
 ## Co-GZSL: Feature Contrastive Optimization for Generalized Zero-Shot Learning
 

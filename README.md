@@ -5,7 +5,7 @@
 ## Co-GZSL: Feature Contrastive Optimization for Generalized Zero-Shot Learning
 
 ### Dependencies
-This codes requires the following:
+This code requires the following:
 - Python 3.6
 - Pytorch 1.2.0
 - scikit-learn
@@ -13,7 +13,7 @@ This codes requires the following:
 
 ### Datasets
 
-Download the dataset (AWA1/AWA2/CUB/FLO) from the work of [Xian et al. (CVPR2017)](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), and save correspongding data into directory `./data/`.
+Download the dataset (AWA1/AWA2/CUB/FLO) from the work of [Xian et al. (CVPR2017)](http://datasets.d2.mpi-inf.mpg.de/xian/xlsa17.zip), and save corresponding data into directory `./data/`.
 
 ### Train and Test
 
